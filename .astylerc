@@ -1,0 +1,43 @@
+--quiet
+--errors-to-stdout
+--lineend=linux
+--preserve-date
+--suffix=none
+
+--style=kr
+
+# Indent with 4 spaces, convert tabs to spaces
+--indent=spaces=4
+--convert-tabs
+
+# Attach brackets to namespaces: `namespace foo {`
+--attach-namespaces
+
+# Indent preprocessor blocks, and defines
+--indent-preproc-block
+--indent-preproc-define
+
+# All comments have to be properly indented
+--indent-col1-comments
+
+# Do not indent conditionals
+--min-conditional-indent=0
+
+# Indent statements to be aligned up to 40 cols
+--max-instatement-indent=40
+
+# Paddings around operators, parentheses, and a header
+# (header means `if`, `while`, etc. Example: `if (true)`, instead of `if(true)`)
+--pad-oper
+--pad-header
+
+# Pad parens, and remove all not requested padding
+--unpad-paren
+
+# Pointer alignment
+--align-pointer=type
+--align-reference=name
+
+# Obvious 80 col length maximum
+--max-code-length=80
+--break-after-logical
