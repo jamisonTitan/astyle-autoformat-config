@@ -4,7 +4,7 @@
 --preserve-date
 --suffix=none
 
---style=kr
+--style=am
 
 # Indent with 4 spaces, convert tabs to spaces
 --indent=spaces=4
@@ -30,6 +30,9 @@
 # (header means `if`, `while`, etc. Example: `if (true)`, instead of `if(true)`)
 --pad-oper
 --pad-header
+
+#no one line if elses
+--break-elseifs
 
 # Pad parens, and remove all not requested padding
 --unpad-paren
